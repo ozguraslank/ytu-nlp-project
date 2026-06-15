@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+xgboost
+catboost
+lightgbm
+torch
+accelerate
+vllm
+transformers
+tqdm
