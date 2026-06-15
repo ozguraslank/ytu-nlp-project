@@ -52,6 +52,9 @@ Furthermore, the dataset keeps only questions for which the same model produced
 both correct and incorrect samples. This prevents a classifier from simply
 learning that some questions are easy while others are hard.
 
+The project repository is available at
+\url{https://github.com/ozguraslank/ytu-nlp-project}.
+
 \section{Data Generation}
 The source questions are Turkish grade-school math problems from local CSV
 samples derived from \texttt{ytu-ce-cosmos/gsm8k\_tr}, a Turkish GSM8K dataset
@@ -110,7 +113,7 @@ of the generation.
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=\linewidth]{top10_ma_q19.png}
+\includegraphics[width=\linewidth]{img/top10_ma_q19.png}
 \caption{Moving-average top-10 probability curves for one mixed question.
 Green curves are correct answers and red curves are incorrect answers. The
 y-axis is zoomed to expose small deviations near one.}
@@ -125,7 +128,7 @@ classification task should be possible but limited.
 
 \begin{figure*}[t]
 \centering
-\includegraphics[width=0.92\textwidth]{top10_ma_grid.png}
+\includegraphics[width=0.92\textwidth]{img/top10_ma_grid.png}
 \caption{Small-multiple view of nine mixed questions. Each panel has an
 independently zoomed y-axis. The signal is not perfectly aligned across
 questions, which motivates within-question relative features.}
