@@ -6,6 +6,8 @@ generated token, the stored signal is the sum of the probabilities of the top-10
 most likely next tokens. Lower values are interpreted as moments where the model
 is less certain.
 
+[GitHub link](https://github.com/ozguraslank/ytu-nlp-project)
+
 ## Dataset
 
 The source data comes from local 250-question train/test samples of
@@ -46,8 +48,8 @@ python step2.py --question_id 19 --window 15
 
 Outputs:
 
-- `top10_ma_q<id>.png`: one mixed question, green = correct, red = incorrect
-- `top10_ma_grid.png`: nine mixed questions side by side
+- `img/top10_ma_q<id>.png`: one mixed question, green = correct, red = incorrect
+- `img/top10_ma_grid.png`: nine mixed questions side by side
 
 The y-axis is zoomed because top-10 probability sums are usually very close to
 1.0. Balanced mixed questions, such as 5 correct and 5 incorrect answers, show
